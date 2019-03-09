@@ -1,0 +1,45 @@
+<html>
+<head>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css"> 
+  <script src="jquery-3.3.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="main.js"></script>
+  <script>
+    $(document).ready(function() {
+    $('div').css({
+        'height':'100%',
+    })
+    $('.flx_container').css({
+        'display':'flex',
+        'flex-direction':'column',
+        'justify-content':'center',
+        'align-items':'center'
+    })
+    $('i').css({
+        'font-size':'220px',
+        'color':'white',
+    })
+   $('button').css({ 
+       'margin-top':'35px',
+   })
+})
+
+  </script>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6 flx_container" style="background-color:rgb(25, 151, 173)">
+        <i class="fas fa-search"></i>
+        <button type="button" class="btn btn-outline-light btn-lg">Search & Explore</button> <!--Boostrap button -->
+      </div> 
+      <div class="col-md-6 flx_container" style="background-color:rgb(206, 134, 2)">
+        <i class="fas fa-play"></i>
+        <button type="button" class="btn btn-outline-light btn-lg">My Playlist</button>
+    </div>   
+    </div>    
+  </div>
+</body>
+</html>
